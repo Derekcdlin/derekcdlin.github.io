@@ -293,7 +293,7 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    min-height: 100vh;
+    min-height: 65vh;
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
@@ -395,6 +395,34 @@ button:hover {
 
 
 /* Services */
+.skills {
+    padding-bottom: 10px;
+}
+
+.skill-box {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+}
+
+.item {
+    position: relative;
+    height: auto;
+}
+
+.hover-content {
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.icon {
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 10% 10%;
+    filter: invert(1);
+}
 
 .my-services .col-md-6 {
     padding-left: 5px;
@@ -404,7 +432,7 @@ button:hover {
 .service-item {
     margin-bottom: 10px;
     padding: 50px;
-    background-color: rgba(250, 250, 250, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     transition: all 0.5s;
 }
 
@@ -416,7 +444,7 @@ button:hover {
     transition: all 0.5s;
 }
 
-.service-item:hover {
+/*.service-item:hover {
     background-color: rgba(250, 250, 250, 1);
 }
 
@@ -426,7 +454,7 @@ button:hover {
 
 .service-item:hover p {
     color: #4a4a4a;
-}
+}*/
 
 .service-item .service-icon {
     width: 70px;
@@ -633,6 +661,9 @@ figure.snip1321.hover:after {
   opacity: 0.9;
 }
 
+.item {
+    width: 20%;
+}
 
 /* Contact Me */
 
@@ -796,7 +827,7 @@ section.contact-me {
         left: 3%;
     }
     .isotope-item {
-        width: 94%;
+        width: 33%;
         margin: 3%;
     }
     .left-image-post img {
